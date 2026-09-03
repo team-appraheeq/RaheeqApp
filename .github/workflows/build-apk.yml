@@ -20,6 +20,6 @@ jobs:
         run: npm install
 
       - name: Build APK with EAS
-        run: npx eas-cli build --platform android --profile preview --non-interactive
+        run: npx eas-cli build --platform android --profile preview
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
