@@ -26,3 +26,4 @@ jobs:
         run: eas build --platform android --profile preview --clear-cache --non-interactive
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+          EXPO_USE_LOCAL_CLI: 0
