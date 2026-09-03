@@ -16,7 +16,11 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.raheeq.app"
+      "bundleIdentifier": "com.raheeq.app",
+      "statusBar": {
+        "backgroundColor": "#127019",
+        "barStyle": "light-content"
+      }
     },
     "android": {
       "package": "com.raheeq.app",
@@ -24,7 +28,11 @@
         "foregroundImage": "./icon.png",
         "backgroundColor": "#127019"
       },
-      "permissions": []
+      "permissions": [],
+      "statusBar": {
+        "backgroundColor": "#127019",
+        "translucent": false
+      }
     },
     "web": {
       "favicon": "./icon.png"
