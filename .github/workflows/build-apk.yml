@@ -19,6 +19,9 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Fix CLI Permissions
+        run: chmod +x node_modules/expo/bin/cli
+
       - name: Install latest EAS CLI
         run: npm install -g eas-cli@latest
 
