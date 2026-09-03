@@ -19,7 +19,10 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Install latest EAS CLI
+        run: npm install -g eas-cli
+
       - name: Build APK with EAS
-        run: npx eas-cli build --platform android --profile preview
+        run: eas build --platform android --profile preview --clear-cache --non-interactive
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
