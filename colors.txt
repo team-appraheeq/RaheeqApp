@@ -1,0 +1,17 @@
+Greens
+#127019
+#17a31d
+
+yellows
+#eaf95d
+#dddd12
+
+White
+#ffffff
+
+grey
+#afacac
+#444444
+
+black
+#1a1a1a

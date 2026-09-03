@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Raheeq - رحيق",
+    "slug": "raheeq-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./Logos/logo2.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#127019"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.raheeq.app"
+    },
+    "android": {
+      "package": "com.raheeq.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./icon.png",
+        "backgroundColor": "#127019"
+      },
+      "permissions": []
+    },
+    "web": {
+      "favicon": "./icon.png"
+    }
+  }
+}
