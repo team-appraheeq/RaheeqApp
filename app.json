@@ -28,6 +28,12 @@
     },
     "web": {
       "favicon": "./icon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1d0f860d-cf1a-4133-a29c-b21d986a6c8f"
+      }
+    },
+    "owner": "team-raheeqapp"
   }
 }
